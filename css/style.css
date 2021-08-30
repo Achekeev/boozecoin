@@ -127,6 +127,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 202px;
+  z-index:100
 }
 .main__button {
   cursor: pointer;
@@ -140,6 +141,7 @@ body {
   color: #FFFFFF;
   background: #684131;
   border-radius: 5px;
+  z-index: 100
 }
 .main__item {
   margin-top: 65px;
@@ -425,34 +427,11 @@ form a{
   right: 443px;
   top: 775px;
 }
-.token{
-  width: 350px;
-  margin-left: 20px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+.right img{
+  width: 560px;
+  height: 1784px;
 }
-.btn{
-  width: 150px;
-  display: inline-flex;
-  margin: 0;
-  font-weight: 500;
-}
-.cancel{
-  color:black;
-  background: #fff;
-}
-.cancel:hover{
-  background:black;
-  color: #fff;
-  transition: all 0.3s ease-in-out ;
-}
-.add{
-  background: #000;
-  color:#fff;
-}
-.add:hover{
-  color: #000;
-  background:#fff;
-  transition: all 0.3s ease-in-out ;
+.present{
+  height: 1870px;
+  overflow-y: hidden;
 }
