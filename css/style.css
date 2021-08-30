@@ -66,6 +66,8 @@ body {
   top: 7px;
   left: 860px;
   cursor: pointer;
+  width: 200px;
+  height: 200px;
 }
 .header__title {
   position: absolute;
@@ -321,7 +323,8 @@ body {
   margin: 200px auto 0;
   color:#fff;
   position: relative;
-  height: 1300px;
+  height: 1870px;
+  overflow-y: hidden;
 }
 .present__title{
   font-size: 42px;
@@ -369,12 +372,6 @@ body {
 ol{
   margin: 0 0 0 30px;
   padding: 0;
-}
-.present__network{
-  font-weight: 500;
-font-size: 32px;
-line-height: 42px;
-letter-spacing: 0.1px;
 }
 .form{
   margin-top: 25px;
@@ -429,9 +426,21 @@ form a{
 }
 .right img{
   width: 560px;
-  height: 1784px;
+  height: 1755px;
 }
-.present{
-  height: 1870px;
-  overflow-y: hidden;
+
+.present .present__button{
+  margin-top: 100px;
+  margin-left: 450px;
+  display: block;
+  width: 220px;
+  text-decoration: none;
+  color:#fff;
+  font-weight: 300;
+  background: #0048D9;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius:50px
 }
