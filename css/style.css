@@ -315,3 +315,144 @@ body {
   width: 30px;
   height: 30px;
 }
+.present{
+  margin: 200px auto 0;
+  color:#fff;
+  position: relative;
+  height: 1300px;
+}
+.present__title{
+  font-size: 42px;
+  line-height: 1.23;
+  margin: 0 770px; 
+  width: 400px;
+  font-weight: 700;
+}
+.present__wrapper{
+  display: flex;
+  margin: 30px auto 0;
+  width: 1140px;
+}
+.present__left{
+  width: 560px;
+}
+.present__right{
+  width: 560px;
+  margin-left: 20px;
+}
+.present__elem{
+  margin: 5px 0 5px;
+}
+.present__elem:nth-child(2){
+  margin-bottom:10px ;
+  margin-top: 25px;
+}
+.present__elem:nth-child(7){
+  margin-bottom:10px ;
+  margin-top: 225px;
+}
+.present__elem:nth-child(9){
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.present__header{
+  font-size: 18px;
+    line-height: 1.55;
+    font-weight:700;
+}
+.present__subheader{
+  font-size: 16px;
+    line-height: 1.55;
+}
+ol{
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+.present__network{
+  font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+letter-spacing: 0.1px;
+}
+.form{
+  margin-top: 25px;
+}
+.form label{
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: block;
+}
+.form input{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px;
+position: static;
+width: 420px;
+height: 30px;
+background: #F8FAFC;
+border-radius: 4px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 2px 0px;
+border:none;
+outline: none;
+font-size: 15px;
+}
+form a{
+  background: #0048D9;
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius :30px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin: 20px 110px 0;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 700;
+}form a:hover{
+  color: #0048D9;
+  background: #FFF;
+  transition: all 0.3s ease-in-out ;
+}
+.right{
+  position: absolute;
+  right: 443px;
+  top: 775px;
+}
+.token{
+  width: 350px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  width: 150px;
+  display: inline-flex;
+  margin: 0;
+  font-weight: 500;
+}
+.cancel{
+  color:black;
+  background: #fff;
+}
+.cancel:hover{
+  background:black;
+  color: #fff;
+  transition: all 0.3s ease-in-out ;
+}
+.add{
+  background: #000;
+  color:#fff;
+}
+.add:hover{
+  color: #000;
+  background:#fff;
+  transition: all 0.3s ease-in-out ;
+}
