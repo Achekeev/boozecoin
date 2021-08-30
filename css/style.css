@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+body {
+  margin: 0 auto;
+  background: #2A1208;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.button {
+  border: none;
+  outline: none;
+  width: 195px;
+  height: 53px;
+  border: 2px solid #FF9B00;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  background: inherit;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.header {
+  width: 1920px;
+  height: 119px;
+  position: relative;
+  z-index: 100;
+}
+.header__nav {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 53px 119px 0 90px;
+  width: 1711px;
+}
+.header a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.header li {
+  list-style-type: none;
+  margin-right: 40px;
+}
+.header .first {
+  margin-right: 59px;
+}
+.header .third {
+  margin-left: 614px;
+}
+.header__button {
+  margin-right: 30px;
+}
+.header__logo {
+  position: absolute;
+  top: 7px;
+  left: 860px;
+  cursor: pointer;
+}
+.header__title {
+  position: absolute;
+  width: 304px;
+  height: 64px;
+  left: 808px;
+  top: 224px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 64px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.header .unique {
+  font-weight: 500;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main {
+  width: 1056px;
+  height: 642px;
+  margin-top: 271px;
+  margin-left: 90px;
+}
+.main__title {
+  width: 368px;
+  height: 128px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+.main__subtitle {
+  width: 549px;
+  height: 92px;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+.main__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 202px;
+}
+.main__button {
+  cursor: pointer;
+  width: 219px;
+  height: 45.51px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  background: #684131;
+  border-radius: 5px;
+}
+.main__item {
+  margin-top: 65px;
+  width: 330px;
+  height: 100px;
+  background: #553622;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+.main__item img {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  margin: 5px 15px 5px 8px;
+}
+.main__text {
+  width: 180px;
+  height: 40px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.border {
+  position: absolute;
+  top: 229px;
+  right: 160px;
+  border: 14px solid #2A1208;
+  border-radius: 50%;
+  z-index: 100;
+}
+.border .background {
+  margin: 17px;
+  top: 217px;
+  left: 1093px;
+  border-radius: 50%;
+}
+
+.line {
+  position: absolute;
+  width: 381px;
+  height: 1130px;
+  top: -53px;
+  right: 150px;
+  z-index: 0;
+  background: #553622;
+}
+
+.aside {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.aside__wrapper {
+  margin-top: 337px;
+  margin-right: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 407px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.aside__wrapper img {
+  width: 40px;
+  cursor: pointer;
+}
+.aside__wrapper .facebook {
+  width: 30px;
+  height: 45px;
+}
+
+.delimiter {
+  height: 1px;
+  background: #FFF;
+  margin-top: 45px;
+  z-index: 100;
+}
+
+.footer {
+  position: relative;
+}
+.footer__container {
+  padding-top: 40px;
+  margin-left: 90px;
+}
+.footer__inner {
+  position: absolute;
+  width: 683px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 60px;
+  right: 90px;
+}
+.footer .two {
+  margin-left: 135px;
+  margin-right: 98px;
+}
+.footer__header {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+.footer__link {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 21px;
+}
+.footer .unique {
+  margin-left: 20px;
+}
+.footer__wrapper {
+  margin-top: 75px;
+  width: 1730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+}
+.footer__end {
+  width: 202px;
+  height: 26px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.footer__social-items {
+  width: 211px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__social-items .social-item {
+  width: 40px;
+  height: 40px;
+  background: #303234;
+  -webkit-box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.4), -3px -3px 16px rgba(73, 73, 73, 0.4);
+          box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.4), -3px -3px 16px rgba(73, 73, 73, 0.4);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer__social-items .social-item img {
+  width: 30px;
+  height: 30px;
+}
